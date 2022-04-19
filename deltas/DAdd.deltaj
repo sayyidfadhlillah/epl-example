@@ -1,0 +1,22 @@
+delta DAdd {
+	adds {
+		package at.jku.kv.ple;
+
+		public class Add implements Exp {
+			Exp left;
+			Exp right;
+		
+			public Add(Exp left, Exp right) {
+				this.left = left;
+				this.right = right;
+			}
+			
+			public void print(){
+				left.print();
+				System.out.print('+');
+				right.print();
+			}
+			
+		}
+	}
+}

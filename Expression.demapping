@@ -1,0 +1,11 @@
+Neg:
+<decore/DNeg.decore>
+Neg && Eval:
+<decore/DNegEval.decore>
+Add:
+<decore/DAdd.decore>
+Add && Eval:
+<decore/DAddEval.decore>
+Eval:
+<decore/DExpEval.decore>,
+<decore/DLitEval.decore>

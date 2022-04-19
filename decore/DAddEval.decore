@@ -1,0 +1,11 @@
+ configuration delta "DAddEval"
+	dialect <http://www.emftext.org/java>
+		requires <DAdd.decore>, <DExpEval.decore>
+		modifies <at/jku/kv/ple/Add.java>
+		{
+	addMember(<class:at.jku.kv.ple.Add>, "int eval() { 
+			return left.eval() + right.eval(); 
+		}
+");
+	}
+	
