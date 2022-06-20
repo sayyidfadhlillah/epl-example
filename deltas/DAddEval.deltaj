@@ -1,6 +1,6 @@
 delta DAddEval requires DAdd, DExpEval {
 	modifies at.jku.kv.ple.Add {
-		adds int eval() { 
+		adds public int eval() { 
 			return left.eval() + right.eval(); 
 		}
 	}

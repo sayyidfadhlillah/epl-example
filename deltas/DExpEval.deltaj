@@ -1,6 +1,6 @@
 delta DExpEval {
 	modifies at.jku.kv.ple.Exp {
-		adds void eval();
+		adds public int eval();
 	}
 }
 

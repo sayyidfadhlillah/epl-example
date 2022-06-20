@@ -2,7 +2,7 @@
 	dialect <http://www.emftext.org/java>
 		modifies <../src/at/jku/kv/ple/Lit.java>
 		{
-	addMember(<class:at.jku.kv.ple.Lit>, "int eval(){
+	addMember(<class:at.jku.kv.ple.Lit>, "public int eval(){
 			return value;
 		}
 ");
